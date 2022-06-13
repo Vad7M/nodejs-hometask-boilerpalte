@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "email": "boltyn02@gmail.com",
+      "password": "vfrcbv",
+      "firstName": "Maksym",
+      "lastName": "Savchenko",
+      "phoneNumber": "+380968495637",
+      "id": "5dfe1c87-2d28-47d5-9b53-4125a66368c2",
+      "createdAt": "2022-06-13T19:09:56.535Z"
+    }
+  ],
+  "fighters": [
+    {
+      "name": "Russian",
+      "health": 100,
+      "power": 2,
+      "defense": 1,
+      "id": "ab5f4f44-2463-45a0-85b7-fe786f96b64b",
+      "createdAt": "2022-06-13T19:10:32.906Z"
+    },
+    {
+      "name": "Ukrainian",
+      "health": 100,
+      "power": 40,
+      "defense": 9,
+      "id": "38bd776e-f3be-44fb-80c1-7201c2b4edfd",
+      "createdAt": "2022-06-13T19:11:01.997Z"
+    }
+  ],
+  "fights": [
+    {
+      "fighter1": "ab5f4f44-2463-45a0-85b7-fe786f96b64b",
+      "fighter2": "38bd776e-f3be-44fb-80c1-7201c2b4edfd",
+      "log": [
+        {
+          "fighter1Shot": 0,
+          "fighter2Shot": 0,
+          "fighter1Health": 100,
+          "fighter2Health": 100
+        },
+        {
+          "fighter1Health": 100,
+          "fighter2Health": 100,
+          "fighter1Shot": 0,
+          "fighter2Shot": 0
+        },
+        {
+          "fighter1Health": 100,
+          "fighter2Health": 100,
+          "fighter1Shot": 0,
+          "fighter2Shot": 0
+        },
+        {
+          "fighter1Health": 61,
+          "fighter2Health": 100,
+          "fighter1Shot": 39,
+          "fighter2Shot": 0
+        },
+        {
+          "fighter1Health": 22,
+          "fighter2Health": 100,
+          "fighter1Shot": 39,
+          "fighter2Shot": 0
+        },
+        {
+          "fighter1Health": 0,
+          "fighter2Health": 100,
+          "fighter1Shot": 39,
+          "fighter2Shot": 0
+        }
+      ],
+      "id": "e89a8dd5-91e0-4731-9b8e-3c9e47a5f8fd",
+      "createdAt": "2022-06-13T19:11:05.716Z",
+      "updatedAt": "2022-06-13T19:11:53.240Z"
+    }
+  ]
+}
